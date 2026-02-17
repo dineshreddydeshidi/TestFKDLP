@@ -1,0 +1,1 @@
+# Opening a file in read mode '''f= open('demo.txt', 'r') data= f.read() print(data) # print(type(data)) f.close() # print('File closed?', f.closed)'''  # opening a file in write mode '''f= open('demo.txt', 'w') f.write('This is a demo file. ') f.write('It is used for demonstrating file handling in Python. ') f.close()'''  # opening a file in appen
